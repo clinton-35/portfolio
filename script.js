@@ -4,3 +4,7 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
   }
+
+  document.getElementById("downloadCV").addEventListener("click", function() {
+    window.open("./assets/cv.pdf");
+  });
